@@ -22,14 +22,15 @@ After processing all lines in the file, print the total word count.
 Developed By: ARCHANA.T
 Register Number :212223240013
 num=0
-with open("sample.txt","r") as f1:
+with open("word count.txt","r") as f1:
     for i in f1:
-        word=i.spilt()
+        word = i.split()
         num+=len(word)
-print("The number of words are in the file is ",num)     
+print("The number of words are in the file is ",num)       
 ```
 ### OUTPUT:
-![sample](https://github.com/ARCHANAT1305/Word-count/assets/145975189/d4ccd2e1-1380-4fbd-a15c-710df9236adb)
+![word count](https://github.com/ARCHANAT1305/Word-count/assets/145975189/04948f4d-702f-4872-a371-544091194cb4)
+
 
 
 
